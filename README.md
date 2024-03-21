@@ -16,8 +16,8 @@ Car maintenance is really a hectic task when it comes to waiting for longer dura
 
 # How to run this code
 ```
-git clone https://github.com/Mak-3/Car-Dirtiness-and-Damage-detection
-cd Car-Dirtiness-and-Damage-detection
+git clone https://github.com/Dhanushpoojary/Vehicle-Damage-Assessment-System
+cd Vehicle-Damage-Assessment-System
 python flask_app.py
 open in localhost
 ```
