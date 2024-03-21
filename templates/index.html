@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/static/styles.css" />
+  <title> Vehicle Damage Assessment System</title>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+
+<body>
+   <header class="header">
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars" id="bars"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+
+
+      <div class="nav__bar">
+        <div class="logo nav__logo">
+          <a href="#"><img src="/static/logo.png" width="80px" alt="logo" /></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#team">OUR TEAM</a></li>
+        <!-- &ensp; -->
+        <li><a href="#contactus">Contact Us</a></li>
+
+        <li> <a href="#yolo">
+            <div class="header__btn">
+              <button class="btn">Demo</button>
+            </div>
+        </li></a>
+      </ul>
+    </nav>
+
+    <section id="home" class="home"
+      style="background: url(); background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>Vehicle Damage Assessment System</h1>
+          <div class="header__btn">
+            <a href="#yolo"> <button class="btn">Demo</button></a>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <br><br><br><br><br>
+
+  <section class="section__container experience__container" id="about">
+    <div class="experience__image">
+      <img src="/static/experience.jpg" alt="experience" />
+    </div>
+    <div class="experience__content">
+      <p class="section__subheader">ABOUT</p>
+      <h2 class="section__header">
+        Vehicle Damage Assessment System
+      </h2>
+      <p class="section__description">
+        A vehicle damage assessment system is a technology-driven solution used by insurance companies, auto repair
+        shops, and vehicle owners to evaluate and document damages sustained in accidents or incidents. It employs
+        various tools such as digital imaging, computer vision, and machine learning algorithms to analyze and quantify
+        the extent of damage to a vehicle quickly and accurately. This system helps streamline the claims process,
+        reduce human error, and ensure fair and efficient settlements for all parties involved in vehicle-related
+        incidents.
+      </p>
+      <button class="btn">Read More</button>
+    </div>
+  </section>
+
+  </br>
+
+  <div class="yolo" id="yolo">
+    <form class="form-signin" method=post enctype=multipart/form-data>
+      <center><img class="gifimg" src="/static/arrow.gif" /></center>
+      <h1 class="h3 mb-5 font-weight-normal"><b>Upload damaged Car Image</b></h1>
+      <br>
+      <input type="file" name="file" class="form-control-file" id="inputfile">
+      <br />
+      <button class="btn btn-lg btn-primary btn-block" type="submit" id="btn">Upload</button>
+      <center><img class="gifimg" src="/static/click.gif" /></center>
+    </form>
+
+  </div>
+
+
+
+  <section class="team" id="team">
+    <div class="section__container service__container">
+      <p class="section__subheader">Our Team</p>
+      <h2 class="section__header">Members</h2>
+      <p class="section__description">
+        Vehicle Damage Assessment System
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="/static/service-1.jpg" alt="service" />
+          <h4>Dhanush Poojary</h4>
+          <!-- <p>
+            4NM20CS062
+          </p> -->
+        </div>
+        <div class="service__card">
+          <img src="/static/service-2.jpg" alt="service" />
+          <h4>Chirag Nackathaya</h4>
+          <!-- <p>
+            4NM20CS083
+          </p> -->
+        </div>
+        <div class="service__card">
+          <img src="/static/service-3.jpg" alt="service" />
+          <h4>Avinash Acharya</h4>
+          <!-- <p>
+            4NM21CS403
+          </p> -->
+        </div>
+        <div class="service__card">
+          <img src="/static/service-4.jpg" alt="service" />
+          <h4>Gautham Bhandary</h4>
+          <!-- <p>
+            4NM21CS405
+          </p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="contact">
+    <footer class="footer" id="contactus">
+      <div class="section__container subscribe__container">
+        <div class="subscribe__content">
+          <p class="section__subheader">CONTACT US</p>
+          <h2 class="section__header">Vehicle Damage Assessment System</h2>
+          <p class="section__description">
+            A vehicle damage assessment system is a technology-driven solution used by insurance companies, auto repair
+            shops, and vehicle owners to evaluate and document damages sustained in accidents or incidents.
+          </p>
+        </div>
+
+      </div>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#"><img src="/static/logo.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Vehicle Damage Assessment System
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.google.com/"><i class="ri-google-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Our Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Detect Damage</a></li>
+            <li><a href="#">Detect Type of Damage</a></li>
+            <li><a href="#">Estimation of Cost</a></li>
+            <!---<li><a href="#">/////</a></li>
+            <li><a href="#">//////</a></li>-->
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Info</h4>
+          <ul class="footer__links">
+            <li>
+              <p>
+                Vehicle Damage Assessment System
+              </p>
+            </li>
+            <li>
+              <p>Phone: <span>+91 9353019459</span></p>
+            </li>
+            <li>
+              <p>Email: <span>chiragnackathaya@gmail.com</span></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Vehicle Damage Assessment System
+    </div>
+  </section>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="/static/main.js"></script>
+
+
+
+  <script src="/static/script.js"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    
+    $(document).ready(function() {
+    $('#btn').click(function() {
+        var fileInput = $('#inputfile');
+        if (!fileInput.val()) {
+            alert('Please select an image.');
+            return false; // Prevent further action
+        }
+        else {
+            // alert('Image selected: ' + fileInput.val());
+            // Perform further actions if needed
+          }
+      });
+  });
+
+    $('#inputfile').bind('change', function () {
+      let fileSize = this.files[0].size / 1024 / 1024; // this gives in MB
+      if (fileSize > 1) {
+        $("#inputfile").val(null);
+        alert('file is too big. images more than 1MB are not allowed')
+        return
+      }
+      let ext = $('#inputfile').val().split('.').pop().toLowerCase();
+      if ($.inArray(ext, ['jpg','jpeg','webp','png']) == -1) {
+        $("#inputfile").val(null);
+        alert('only jpeg/jpg files are allowed!');
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>
