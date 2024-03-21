@@ -23,9 +23,10 @@ open in localhost
 ```
 
 # output
-![Screenshot (14)](https://user-images.githubusercontent.com/75625675/212541145-287ca291-f6ef-4f7b-8e09-f379cb03f828.png)
-![Screenshot (24)](https://user-images.githubusercontent.com/75625675/212541862-b306dca6-2b0d-4969-9967-e598c29597e8.png)
-![Screenshot (28)](https://user-images.githubusercontent.com/75625675/212541874-a0a5292f-84cb-4197-b640-bf7c9f60b242.png)
+![val_batch2_labels](https://github.com/Gauthambhandary/Vehicle-Damage-Assessment-System/assets/76608448/113dc50b-c558-4aa6-80c7-545d59792b45)
+![val_batch0_pred](https://github.com/Gauthambhandary/Vehicle-Damage-Assessment-System/assets/76608448/9ecc4022-3ecd-44b1-bf7a-fdb8f4040cef)
+![val_batch2_labels](https://github.com/Gauthambhandary/Vehicle-Damage-Assessment-System/assets/76608448/149d29dd-2a8f-4f71-9f22-060cde99e1eb)
+![val_batch1_labels](https://github.com/Gauthambhandary/Vehicle-Damage-Assessment-System/assets/76608448/f52dee50-a5a3-4e90-bd47-8cd8b41a3730)
 
 # Types of output
 YOLOv5 will return image if damaged with bounding boxes namely of 4 possibilities 
