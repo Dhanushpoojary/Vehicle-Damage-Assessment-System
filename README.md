@@ -29,7 +29,7 @@ open in localhost
 # Types of output
 YOLOv5 will return image if damaged with bounding boxes namely of 4 possibilities 
 - Scratch
-- Glass broken
+- Broken glass
 - Deformation
 - Broken
 
