@@ -20,7 +20,8 @@
 .section__container {
   max-width: var(--max-width);
   margin: auto;
-  padding: 5rem 1rem;
+  
+ padding: 5rem 1rem;
 }
 
 .section__subheader {
@@ -99,10 +100,10 @@ nav {
   isolation: isolate;
   top: 0;
   width: 100%;
-  left: 0;
+  /*left: 0;
   right: 0;
   max-width: var(--max-width);
-  margin: auto;
+  margin: auto;*/
   z-index: 9;
 }
 
@@ -157,6 +158,8 @@ nav {
   font-size: 3rem;
   font-weight: 600;
   line-height: 4rem;
+  text-shadow: black 1px -1px 1px,
+ rgb(7,7,7) 1px 1px 1px;
   color: var(--white);
 }
 
